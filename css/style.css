@@ -1462,6 +1462,13 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	.w3-different-interior-head h3, .w3ls-welcome_sec_about-head h3, .w3ls-heading h3, .w3-map-head h3, .w3-our-designs-head h3, .w3-team-head h3 {
     font-size: 2.5em;
 	}
+	.but1:hover{
+			
+		color: white;
+		border-radius: 20px;
+		background:#6ab04c;
+
+	}
 }
 @media(max-width:768px){
 	.tittle-w3 {
