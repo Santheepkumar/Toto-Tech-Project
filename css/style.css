@@ -1,11 +1,4 @@
-@font-face {
-font-family: "McLaren-Regular";
-src: url("../fonts/McLaren-Regular.ttf");
-src:
-url("../fonts/McLaren-Regular.woff") format("woff"),
-url("../fonts/McLaren-Regular.otf") format("opentype"),
-url("../fonts/McLaren-Regular.svg#filename") format("svg");
-}
+
 html, body{
 	margin:0;
 	font-size: 100%;
@@ -79,7 +72,7 @@ label{
     left: 10.2%;
     width: 80%;
     background: #fff;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'McLaren-Regular', sans-serif;
 }
 .w3-banner-top {
     position: relative;
@@ -242,8 +235,10 @@ ul.callbacks_tabs.callbacks1_tabs {
     position: relative;
     text-shadow: 2px 2px 2px #d4cfcf;
 	margin-bottom:30px;	 
+	border-bottom: 1px solid #019B9B;
+	border-top: 1px solid #019B9B;
 }
-.w3ls-welcome_sec_about-head .span1 {
+.w3ls-welcome_sec_about-head .span1  {
     width: 34px;
     padding: 0px 25px;
     height: 90px;
@@ -251,14 +246,21 @@ ul.callbacks_tabs.callbacks1_tabs {
     border-right: none;
     position: absolute;
     right: 33%;
-    top: -11%;
+	top: -11%;
+	
+	
 }
+.w3ls-welcome_sec_about-head h3{
+	border-bottom: 1px solid #019B9B;
+	border-top: 1px solid #019B9B;
+}
+
 .w3l-welcome_info{
 	padding-left:0;
 }
 .w3l-welcome_info h3,.auto_sec h3,.feature_head h3{
 	font-size: 35px;
-    color: #f6cc4c;
+    color: #019B9B;
 }
 .w3l-welcome_info span{
 	background: #ff007f;
@@ -302,15 +304,16 @@ ul.callbacks_tabs.callbacks1_tabs {
 	padding:0 0 0 3em;
 }
 .w3l-welcome_pic h2{
-	color:#f6cc4c;
+	color:#019B9B;
     font-size: 25px;
 }
 .w3l-welcome_pic img{
 	margin:2em 0 1em 0;
 }
 .w3l-welcome_pic h3{
-	color:#f6cc4c;
-    font-size: 32px;
+	color:#019B9B;
+	font-size: 25px;
+	line-break: auto;
     font-weight: 500;
 	margin-bottom: 0px;
 	padding: 0px 0px 30px 0px;
@@ -905,22 +908,22 @@ a.w3_agile_vimeo:hover{
     color: #fff;
     font-size: 1.1em;
     font-weight: 100; 
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'McLaren-Regular', sans-serif;
 }
 .footer-w3lsrow .footer-address ul li:nth-child(2) {
     margin: 1em 0;
 }
 .footer-w3lsrow .footer-address ul li a {
-    color:#fcac14;
+    color:#019B9B;
 }
 .footer-wthree-nav ul li a:hover{ 
-    color:#fcac14; 
+    color:#019B9B; 
 }
 .footer-w3lsrow h3 {
     font-size: 2.3em;
-    color:#fcac14;
+    color:#019B9B;
     margin: 0.3em;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'McLaren-Regular', sans-serif;
 }
 .footer-grids.subscribe {
     padding-left: 5em;
@@ -978,7 +981,7 @@ a.w3_agile_vimeo:hover{
 .footer i.glyphicon {
     font-size: 1em;
     margin-right: .8em;
-	color:#f6cc4c;
+	color:#019B9B;
 }
 .footer-bottom {
     text-align:center;
@@ -987,7 +990,7 @@ a.w3_agile_vimeo:hover{
     color: #fff;
 }
 .footer p a{
-    color:#fcac14;
+    color:#019B9B;
 }
 .footer-social-grids {
     margin: .5em 0 0 0;
@@ -1067,7 +1070,7 @@ a.w3_agile_vimeo:hover{
     line-height: 2em;
 }
 .footer-grid ul li a:hover{
-	color:#ff9900;	
+	color:#3b5998;	
 }
 .agile-footer-grid ul {
     padding: 0;
@@ -1081,7 +1084,7 @@ ul.w3agile_footer_grid_list li {
     font-size: 1em;
 }
 ul.w3agile_footer_grid_list li a {
-    color: #ff9900;
+    color: #3b5998;
     text-decoration: none;
 }
 ul.w3agile_footer_grid_list li span {
@@ -1124,13 +1127,13 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	    font-size: 16px;
 }
 .footer-grids.footer-address a {
-    border-top: 2px solid #f6cc4c;
-    border-bottom: 2px solid #f6cc4c;
+    border-top: 2px solid #019B9B;
+    border-bottom: 2px solid #019B9B;
 	    color: #fff;
 		padding: 6px;
 }
 .footer-grids.footer-address span {
-    color: #f6cc4c;
+    color: #019B9B;
 }
 .footer-grids.footer-address h3 {
     letter-spacing: 2px;
@@ -1482,7 +1485,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
     right: 0%;
 	}
 	.w3-different-interior-head h3, .w3ls-welcome_sec_about-head h3, .w3ls-heading h3, .w3-map-head h3, .w3-our-designs-head h3, .w3-team-head h3 {
-    font-size: 2.5em;
+	font-size: 2.5em;
 	}
 	.but1:hover{
 			
@@ -1570,9 +1573,9 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	
 }
 @media(max-width:667px){
-	.head_img{
+	/* .head_img{
 		display: none;
-	}
+	} */
 	.w3-banner-head4 {
     width: 20%;
 	}
@@ -2007,7 +2010,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
     font-size: 15px;
 	}
 	.w3-different-interior-head h3, .w3ls-welcome_sec_about-head h3, .w3ls-heading h3, .w3-map-head h3, .w3-our-designs-head h3, .w3-team-head h3 {
-    font-size: 1.8em;
+	font-size: 1.8em;
 	}
 	.agileits_w3layouts_sub {
     font-size: 1.8em;
@@ -2142,7 +2145,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 } */
 .alldivs{
 background-color: #FFDEE9;
-background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+background-image: linear-gradient(0deg, #FFDEE9 0%, #fff 100%);
 
 
 }
