@@ -51,7 +51,7 @@ label{
 	/* font-family: 'McLaren', cursive; */
     position: absolute;
     z-index: 99;
-    color:#019B9B;
+    color:#fff;
     text-transform: uppercase;
     letter-spacing: 0px;
     text-align: left;
@@ -2125,10 +2125,10 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 .but1:hover{
 	color: white;
 	border-radius: 20px;
-	padding: 10px 150px 10px 150px;
+	padding: 10px 40px 10px 40px;
 	background:#6ab04c;
 	font-size: 14px;
-	margin: 0px 50px 0px 50px;
+	/* margin: 0px 0px 0px 0px; */
 		
 }
 /* 
