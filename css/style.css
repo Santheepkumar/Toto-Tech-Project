@@ -259,7 +259,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	padding-left:0;
 }
 .w3l-welcome_info h3,.auto_sec h3,.feature_head h3{
-	font-size: 35px;
+	font-size: 30px;
     color: #019B9B;
 }
 .w3l-welcome_info span{
@@ -305,7 +305,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .w3l-welcome_pic h2{
 	color:#019B9B;
-    font-size: 25px;
+    font-size: 30px;
 }
 .w3l-welcome_pic img{
 	margin:2em 0 1em 0;
@@ -1873,8 +1873,8 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
     font-size: 1.5em;
 	}
 	.attachimg{
-		width:200px;
-		height:200px
+		width:20px;
+		height:20px
 	}
 	
 }
@@ -2086,8 +2086,10 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 }
 	
 .attachimg{
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 250px;
+	border-radius: 20px;
+	opacity: 70%;
 }
 
 .apply{
