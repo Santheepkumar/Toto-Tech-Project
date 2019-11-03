@@ -418,7 +418,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     top: 0;
     left: 0;
     bottom: 0;
-	background: rgba(246, 204, 76, 0.66);
+	background: rgba(0, 157, 255, 0.66);
     right: 0;
     -webkit-transition: all 400ms ease;
     -moz-transition: all 400ms ease;
@@ -960,8 +960,8 @@ a.w3_agile_vimeo:hover{
     border-color: #FC6914;
 }
 .footer form:hover input[type="submit"] {
-       border-color: #f6cc4c;
-    background: #f6cc4c;
+       border-color: #00bbe6;
+    background:#00bbe6;
 }
 ::-webkit-input-placeholder {
 	color:#fff !important;
@@ -1117,7 +1117,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
     text-transform: uppercase;
 }
 .agile-footer-grid input[type="submit"]:hover{
-    border: 2px solid #ff9900;
+    border: 2px solid #00bbe6;
     background: none;
 }
 .agile-footer-grid li {
@@ -1141,7 +1141,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
     text-transform: uppercase;
 }
 .agile-footer-grid a:hover {
-    color: #f6cc4c;
+    color: #35a8c2;
 }
 .footer-grids {
     margin: 2em 0;
