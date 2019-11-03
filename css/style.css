@@ -1,4 +1,11 @@
-
+@font-face {
+font-family: "McLaren-Regular";
+src: url("../fonts/McLaren-Regular.ttf");
+src:
+url("../fonts/McLaren-Regular.woff") format("woff"),
+url("../fonts/McLaren-Regular.otf") format("opentype"),
+url("../fonts/McLaren-Regular.svg#filename") format("svg");
+}
 html, body{
 	margin:0;
 	font-size: 100%;
@@ -41,23 +48,25 @@ label{
 }
 /*----*/
 .logo-w3layouts h1 a {
+	/* font-family: 'McLaren', cursive; */
     position: absolute;
     z-index: 99;
-    color: #fff;
+    color:#019B9B;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 0px;
     text-align: left;
-    left: 5em;
-    top: 1.8em;
-	font-size: 1.1em;
-    font-weight: 700;
+    left: 10em;
+    top: 1.3em;
+	font-size: 40px;
+    font-weight: 750;
 	text-decoration:none;
-	border-top: 2px solid #f6cc4c;
-    border-bottom: 2px solid #f6cc4c;
+	border-top: 1px solid #019B9B;
+    border-bottom: 1px solid #019B9B;
 	padding-top: 4px;
+	-webkit-text-stroke: 1px black;
 }
 .logo-w3layouts h1 a span {
-    color: #f6cc4c;
+    color: #019B9B;
 }
 .logo-w3layouts h1 {
     font-family: 'Poppins', sans-serif;
@@ -82,7 +91,7 @@ label{
     left: 20%;
     z-index: 555;
 	padding-left: 1.5em;
-    border-left: 10px solid #f6cc4c;
+    border-left: 10px solid #019B9B;
 	color:#fff;
 	text-transform: uppercase;
 }
@@ -107,7 +116,7 @@ label{
     left: 45%;
     z-index: 555;
      padding-left: 1.5em;
-    border-left: 10px solid #f6cc4c;
+    border-left: 10px solid #019B9B;
 	color:#fff;
 	text-transform: uppercase;
 }
@@ -133,7 +142,7 @@ label{
     left: 66%;
     z-index: 555;
     padding-left: 1.5em;
-    border-left: 10px solid #f6cc4c;
+    border-left: 10px solid #019B9B;
 	color:#fff;
 	text-transform: uppercase;
 }
@@ -143,8 +152,8 @@ label{
     bottom: 9%;
     left: 34%;
     z-index: 555;
-    padding-left: 1.5em;
-   border-right: 10px solid #f6cc4c;
+    padding-left: 0.3em;
+   border-right: 10px solid #019B9B;
    color:#fff;
    text-transform: uppercase;
 }
@@ -1173,9 +1182,9 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 /*-- //to-top --*/
 /*-- /responsive design --*/
 @media(max-width:1440px){
-	.logo-w3layouts h1 a {
-    left: 1em;
-	top:3%;
+	
+	.head_img{
+		left: 0.5em;
 	}
 	.open-overlay {
         top: 3%;
@@ -1185,6 +1194,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	}
 }
 @media(max-width:1366px){
+	
 	.wpf-demo-4 {
     height: 262px;
 	}
@@ -1196,6 +1206,13 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	}
 }
 @media(max-width:1280px){
+		.logo-w3layouts h1 a {
+    display: none;
+	} 
+	.head_img{
+		position: absolute;
+		right: 5em;
+	}
 	.w3-banner-head3 {
     left: 68%;
 	}
@@ -1228,6 +1245,9 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	}
 }
 @media(max-width:1080px){
+
+
+
 	.w3-banner-head4 {
     width: 14%;
 	}
@@ -1260,6 +1280,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	}
 }
 @media(max-width:1024px){
+
 	.wpf-demo-4 {
     height: 196px;
 	}
@@ -1420,6 +1441,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	}
 }
 @media(max-width:800px){
+
 	.logo-w3layouts h1 {
     font-size: 30px;
 	}
@@ -1548,6 +1570,9 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	
 }
 @media(max-width:667px){
+	.head_img{
+		display: none;
+	}
 	.w3-banner-head4 {
     width: 20%;
 	}
@@ -1770,7 +1795,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
     left: 9%;
 	}
 	.logo-w3layouts h1 {
-    font-size: 28px;
+    font-size: 2px;
 	}
 	.open-overlay {
     right: 6%;
@@ -2133,8 +2158,11 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 	border-radius: 40px;
 }
 .head_img{
-	padding:10px 0 0 10px;
-	height:20px;
+	z-index: 99;
+	position: absolute;
+	text-decoration: none;
+	left:8.5em;
+	top:1.3em;
 		}
 		
 .welcome{
