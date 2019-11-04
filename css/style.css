@@ -705,17 +705,17 @@ a.w3_agile_vimeo:hover{
 }
 .agileits_w3layouts_sub {
     text-align: center;
-    font-size: 3em;
-    color: #00bcd4;
+	font-size: 3em;
+	font-weight: 20px;
+    color: #000000;
     padding-bottom: .5em;
     position: relative;
     margin-bottom: .5em;
     font-family: 'Raleway', sans-serif;
-    text-shadow: 2px 2px 2px #178fbb;
 }
 .agileits_w3layouts_sub:after{
 	    content: '';
-    background: #ffb500;
+    background: #09aae4;
     height: 2px;
     width: 12%;
     position: absolute;
@@ -744,14 +744,14 @@ a.w3_agile_vimeo:hover{
 }
 .wthree_footer_top_grid img {
     border-radius: 50px;
-    border: 4px solid #ffb500;
+    border: 4px solid #01aed5;
 	margin:1em auto;
 }
 /*-- //footer-top --*/
 /*-- mail --*/
 .tittle-w3{
     font-size: 2em;
-    color: #f6cc4c;
+    color: #000000;
     margin: 0em 0 1.5em;
     text-align: center;
 	text-transform:uppercase;
