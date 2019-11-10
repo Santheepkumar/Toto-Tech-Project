@@ -281,7 +281,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	    font-size: 16px;
     line-height: 1.8em;
     margin-top: 16px;
-    color: #969696;
+    color: #2C3335;
 }
 .w3l-welcome_info a{
 
@@ -322,7 +322,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	    font-size: 16px;
     line-height: 1.8em;
     margin-top: 10px;
-    color: #969696;
+    color: #2C3335;
 }
 /*-- //welcome section --*/
 /*-- /latest designs --*/
@@ -1049,7 +1049,7 @@ a.w3_agile_vimeo:hover{
 	    margin: 1em 0;
     font-size: 16px;
     line-height: 1.8em;
-    color: #969696;
+    color: #2C3335;
 }
 .footer-grid ul, .footer-list ul {
     padding: 0;
@@ -2105,34 +2105,15 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	height: 150px;
 }
 .but1{
-
-	/* color:white;
-	padding: 18px 25px;
-	background:#1287A5;
-	border-radius: 10px;
-	font-style: bold;
-	font-size: 12px; */
-
-	color: #fff;
-	border-radius: 10px;
-    font-size: 15px;
-    letter-spacing: 1px;
-    font-weight: 400;
-    background: #00cdff;
-    text-decoration: none;
-    padding: 8px 20px;
-    display: inline-block;
-	font-family: 'PT Sans', sans-serif;
-	margin-left:32% ;
-
+	background: #1287A5;
 }
 
 .but1:hover{
-	color: white;
-	border-radius: 20px;
-	padding: 10px 40px 10px 40px;
+	
 	background:#6ab04c;
-	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
 	/* margin: 0px 0px 0px 0px; */
 		
 }
