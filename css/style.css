@@ -2154,6 +2154,13 @@ background-color: #EAF0F1;
 	font-size: 35px;
     color: #f6cc4c;
 		}
-
+	
+		.footer-logo p{
+			color: white;
+			opacity: 60%;
+		}
+		.w3l-welcome_info h3{
+			font-size: 40px;
+		}
 /*-- /responsive design --*/
 	
