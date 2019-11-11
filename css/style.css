@@ -2161,7 +2161,12 @@ background-color: white;
 			opacity: 60%;
 		}
 		.w3l-welcome_info h3{
-			font-size: 40px;
+			font-size: 35px;
+		}
+		.w3l-welcome_info h4{
+			font-size: 18x;
+			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			color:rgb(14, 165, 202);
 		}
 /*-- /responsive design --*/
 
@@ -2171,7 +2176,7 @@ background-color: white;
     display: flex;
     flex-wrap: wrap;
 	align-items: stretch;
-	justify-content: center;
+	justify-content: space-evenly;
 	padding-right: 10px;
 }
 .cardss h3{
@@ -2213,10 +2218,10 @@ background-color: white;
 	text-decoration:none;
 }
 
-.card{
+/* .card{
 	border: none;
 
-}
+} */
 .cardss button{
 	color: rgb(5, 146, 233);
 }
