@@ -2103,6 +2103,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 .totologo{
 	width: 150px;
 	height: 150px;
+	margin-right: 10px;;
 }
 .but1{
 	background: #1287A5;
@@ -2127,7 +2128,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	height: 2px;
 } */
 .alldivs{
-background-color: #EAF0F1;
+background-color: white;
 
 
 }
@@ -2138,7 +2139,7 @@ background-color: #EAF0F1;
 } */
 
 .mail-grid1-form{
-	background: rgba(253, 255, 253, 0.3);
+	background:white;
 	/* opacity: 50%; */
 	border-radius: 40px;
 }
@@ -2163,4 +2164,59 @@ background-color: #EAF0F1;
 			font-size: 40px;
 		}
 /*-- /responsive design --*/
-	
+
+/* Cards css */
+
+.cardss{
+    display: flex;
+    flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: center;
+	padding-right: 10px;
+}
+.cardss h3{
+	font-size: 22px;
+}
+.cardss span{
+	text-decoration: none;
+}
+
+/* Card more css */
+#more {display: none;}
+
+#more{
+	text-decoration:none;
+}
+#more1 {display: none;}
+
+#more1{
+	text-decoration:none;
+}
+#more2 {display: none;}
+
+#more2{
+	text-decoration:none;
+}
+#more3 {display: none;}
+
+#more3{
+	text-decoration:none;
+}
+#more4 {display: none;}
+
+#more4{
+	text-decoration:none;
+}
+#more5 {display: none;}
+
+#more5{
+	text-decoration:none;
+}
+
+.card{
+	border: none;
+
+}
+.cardss button{
+	color: rgb(5, 146, 233);
+}
