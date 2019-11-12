@@ -2234,3 +2234,13 @@ background-color: white;
 
 
 }
+ .mail-grid1-form .finalsubmit{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.article1 li{
+	color: #01aed5;
+	list-style-type: none;
+	cursor: pointer;
+}
