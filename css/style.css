@@ -807,7 +807,7 @@ a.w3_agile_vimeo:hover{
     /* border: 2px solid rgb(241, 224, 179); */
     border: none;
     font-size: 14px;
-    color: #fff;
+   
     padding: 10px;
     background: #080808;
     width: 100%;
@@ -823,7 +823,7 @@ a.w3_agile_vimeo:hover{
     font-size: 16px;
     background: #f6cc4c;
     padding: 10px 55px;
-    color: #fff;
+    
     transition: .5s ease-in;
     -webkit-transition: .5s ease-in;
     -moz-transition: .5s ease-in;
@@ -866,7 +866,7 @@ a.w3_agile_vimeo:hover{
     left: 23%;
 }
 .mail-grid1-form {
-   background: #fff;
+
     padding: 2em;
     width: 35%;
 }
@@ -2138,7 +2138,7 @@ background-color: white;
 } */
 
 .mail-grid1-form{
-	background:white;
+
 	/* opacity: 50%; */
 	border-radius: 40px;
 }
@@ -2230,4 +2230,9 @@ background-color: white;
 	position:relative;
     background-size: cover;
 	min-height:800px;
+}
+.mail-grid1-form{
+	background: #74B9FF;
+
+
 }
