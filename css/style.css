@@ -2226,8 +2226,6 @@ background-color: white;
 	color: #019B9B;
 }
 .final-img{
-	background: url(../images/bn1.jpg) no-repeat 0px 0px;
-	position:relative;
     background-size: cover;
 	min-height:800px;
 }
