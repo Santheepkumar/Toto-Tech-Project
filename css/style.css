@@ -2112,8 +2112,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 .but1:hover{
 	
 	background:#6ab04c;
-	padding-top: 20px;
-	padding-bottom: 20px;
+
 
 	/* margin: 0px 0px 0px 0px; */
 		
@@ -2176,8 +2175,9 @@ background-color: white;
     display: flex;
     flex-wrap: wrap;
 	align-items: stretch;
-	justify-content: space-evenly;
+	justify-content: center;
 	padding-right: 10px;
+	padding: 20px;
 }
 .cardss h3{
 	font-size: 22px;
@@ -2224,4 +2224,10 @@ background-color: white;
 }
 .cardss button{
 	color: #019B9B;
+}
+.final-img{
+	background: url(../images/bn1.jpg) no-repeat 0px 0px;
+	position:relative;
+    background-size: cover;
+	min-height:800px;
 }
