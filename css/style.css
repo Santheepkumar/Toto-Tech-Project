@@ -142,8 +142,8 @@ label{
 .w3-banner-head4 {
     position: absolute;
     width: 12%;
-    bottom: 9%;
-    left: 34%;
+    bottom: 20%;
+    left: 44%;
     z-index: 555;
     padding-left: 0.3em;
    border-right: 10px solid #019B9B;
@@ -2217,6 +2217,11 @@ background-color: white;
 #more5{
 	text-decoration:none;
 }
+#more6 {display: none;}
+
+#more6{
+	text-decoration:none;
+}
 
 .card{
 	border: none;
@@ -2251,3 +2256,14 @@ background-color: white;
     z-index:9999;
     background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25)
 } */
+.Trailwork h2{
+	color: #019B9B;
+}
+.Trailwork .h4small{
+	color: #019B9B;
+	font-size:25px;
+}
+
+.formsub textarea{
+	color: white;
+}
